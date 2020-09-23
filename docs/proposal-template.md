@@ -1,14 +1,16 @@
-Team name:
+Team name: thanks you too
 
-Team members:
+Team members: Seth Hukill, Ethan Brown, Grant King
 
 # Introduction
 
-(In 2-4 paragraphs, describe your project concept)
+Thanks you too is going to be creating an app that allows you to relive you glory days as a professional Guitar Hero player. 
+Our app will be a guitar hero remake that you can play on your phone.
 
 # Anticipated Technologies
 
-(What technologies are needed to build this project)
+We will need some sort of app creation software that will allow us to create the app. We will also need a software to create the 
+graphics. We will also need something to either publish the game or test it out.
 
 # Method/Approach
 
