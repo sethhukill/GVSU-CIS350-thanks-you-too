@@ -1,4 +1,4 @@
-# Team Name
+# thanks you too
 
 Project description (~1 paragraph)
 
