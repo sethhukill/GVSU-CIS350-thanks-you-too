@@ -8,7 +8,7 @@ Ever want to relive the nostalgic days of Guitar Hero without having to hold a m
 
 * Seth Hukill (Role 1, Role 2)
 * Ethan Brown  (Role 3, Role 4)
-* Member 3 (Role 5, Role 6)
+* Grant King (Role 5, Role 6)
 
 ## Prerequisites
 
