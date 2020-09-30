@@ -13,4 +13,4 @@ Ever want to relive the nostalgic days of Guitar Hero without having to hold a m
 ## Prerequisites
 
 ## Run Instructions
-This is a commit test
+Test
