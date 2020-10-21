@@ -26,17 +26,25 @@
 
 * Responsible persons(s): All of us
 
-## Incomplete Tasks
-
 ### Task 4
 
-* Description: Find artifacts for the projects
+* Description: Create Gantt chart
+
+* Expected Time to Complete: 2 days
+
+* Responsible persons(s): All of us
+
+## Incomplete Tasks
+
+### Task 5
+
+* Description: Find GUI elements for the projects
 
 * Expected Time to Complete: 1 week
 
 * Responsible person(s): Seth Hukill
 
-### Task 5
+### Task 6
 
 * Description: Create the layout for the menu screen
 
@@ -44,7 +52,7 @@
 
 * Responsible persons(s): Grant King
 
-### Task 6
+### Task 7
 
 * Description: Create the layout for the pause screen
 
@@ -52,7 +60,7 @@
 
 * Responsible persons(s): Grant King
 
-### Task 7
+### Task 8
 
 * Description: Create the layout for the song select screen
 
@@ -60,7 +68,7 @@
 
 * Responsible persons(s): Grant King
 
-### Task 8
+### Task 9
 
 * Description: Create script for the game screen
 
@@ -68,7 +76,7 @@
 
 * Responsible persons(s): All of us
 
-### Task 9
+### Task 10
 
 * Description: Create script for the menu screen
 
@@ -76,7 +84,7 @@
 
 * Responsible persons(s): Kevin Rufino
 
-### Task 10
+### Task 11
 
 * Description: Create script for the pause screen
 
@@ -85,7 +93,7 @@
 * Responsible persons(s): Seth Hukill
 
 
-### Task 11
+### Task 12
 
 * Description: Create script for the song select screen
 
