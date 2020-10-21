@@ -18,9 +18,17 @@
 
 * Responsible person(s): Grant King
 
+### Task 3
+
+* Description: Create SRS
+
+* Expected Time to Complete: 1 weeks
+
+* Responsible persons(s): All of us
+
 ## Incomplete Tasks
 
-### Task 2
+### Task 4
 
 * Description: Find artifacts for the projects
 
@@ -28,7 +36,7 @@
 
 * Responsible person(s): Seth Hukill
 
-### Task 3
+### Task 5
 
 * Description: Create the layout for the menu screen
 
@@ -36,7 +44,7 @@
 
 * Responsible persons(s): Grant King
 
-### Task 4
+### Task 6
 
 * Description: Create the layout for the pause screen
 
@@ -44,7 +52,7 @@
 
 * Responsible persons(s): Grant King
 
-### Task 5 
+### Task 7
 
 * Description: Create the layout for the song select screen
 
@@ -52,7 +60,7 @@
 
 * Responsible persons(s): Grant King
 
-### Task 6
+### Task 8
 
 * Description: Create script for the game screen
 
@@ -60,7 +68,7 @@
 
 * Responsible persons(s): All of us
 
-### Task 7
+### Task 9
 
 * Description: Create script for the menu screen
 
@@ -68,7 +76,7 @@
 
 * Responsible persons(s): Kevin Rufino
 
-### Task 8
+### Task 10
 
 * Description: Create script for the pause screen
 
@@ -77,7 +85,7 @@
 * Responsible persons(s): Seth Hukill
 
 
-### Task 9
+### Task 11
 
 * Description: Create script for the song select screen
 
