@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Note
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - Pause
+  - 
   - 
   - 
   - 
@@ -41,6 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Pause
-    uniqueID: 2481006515
+  - name: Activator
+    uniqueID: 168235333
+    locked: 0
+  - name: Note
+    uniqueID: 1917813141
     locked: 0
