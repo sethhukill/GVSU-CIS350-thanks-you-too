@@ -6,10 +6,11 @@ public class Activator : MonoBehaviour
 {
     SpriteRenderer sr;
     bool active = false;
-    GameObject note;
+    GameObject note,gm;
     Color old;
+    public bool createMode;
+    public GameObject n;
     
-
 
     void Awake()
     {
@@ -17,6 +18,7 @@ public class Activator : MonoBehaviour
     }
     void Start()
     {
+        gm = GameObject.Find("GameManager");
         old = sr.color;
     }
 
@@ -28,10 +30,26 @@ public class Activator : MonoBehaviour
 
     private void OnMouseDown()
     {
-        StartCoroutine(Pressed);
-        if (active)
-            Destroy(note);
+        if (createMode)
+        {
+            Instantiate(n, transform.position, Quaternion.identity);
+        }
+
+        else
+        {
+            StartCoroutine(Pressed);
+            if (active)
+            {
+                Destroy(note);
+                gm.GetComponent<GameManager>().AddStreak();
+                AddScore();
+                active = false;
+            }
+            else if (!active)
+                gm.GetComponent<GameManager>().ResetStreak();
+        }
     }
+        
 
 
     void OnTriggerEnter2D(Collider2D col)
@@ -44,6 +62,12 @@ public class Activator : MonoBehaviour
     void OnTriggerExit2D(Collider2D col)
     {
         active = false;
+        /*gm.GetComponent<GameManager>().ResetStreak();*/
+    }
+
+    void AddScore()
+    {
+        PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + gm.GetComponent<GameManager>().GetScore());
     }
 
     IEnumerator Pressed
