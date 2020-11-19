@@ -16,10 +16,4 @@ public class Note : MonoBehaviour
     {
         rb.velocity = new Vector2(0, -speed);
     }
-
-   
-    void Update()
-    {
-        
-    }
 }

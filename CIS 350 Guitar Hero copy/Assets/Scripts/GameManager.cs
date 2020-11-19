@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     
     void Start()
     {
-        
+        PlayerPrefs.SetInt("Score", 0);
+        PlayerPrefs.SetInt("RockMeter", 25);
     }
 
     void Update()
@@ -25,6 +26,8 @@ public class GameManager : MonoBehaviour
 
     public void AddStreak()
     {
+        if (PlayerPrefs.GetInt("RockMeter") < 50)
+            PlayerPrefs.SetInt("RockMeter", PlayerPrefs.GetInt("RockMeter") + 1);
         streak++;
         if (streak >= 24)
             multiplier = 4;
@@ -39,9 +42,24 @@ public class GameManager : MonoBehaviour
 
     public void ResetStreak()
     {
+        PlayerPrefs.SetInt("RockMeter", PlayerPrefs.GetInt("RockMeter") - 2);
+        if (PlayerPrefs.GetInt("RockMeter") < 0)
+        {
+            Lose();
+        }
         streak = 0;
         multiplier = 1;
         UpdateGUI();
+    }
+
+    public void Lose()
+    {
+        print("You Lose!");
+    }
+
+    public void Win()
+    {
+        print("Your Win!");
     }
 
     void UpdateGUI()

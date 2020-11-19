@@ -18,6 +18,7 @@ public class Activator : MonoBehaviour
     }
     void Start()
     {
+
         gm = GameObject.Find("GameManager");
         old = sr.color;
     }
@@ -54,10 +55,17 @@ public class Activator : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        active = true;
+        if (col.gameObject.tag == "WinNote")
+        {
+            gm.GetComponent<GameManager>().Win();
+        }
+
         if (col.gameObject.tag == "Note")
+        {
             note = col.gameObject;
-    }
+            active = true;
+        }
+        }
 
     void OnTriggerExit2D(Collider2D col)
     {
