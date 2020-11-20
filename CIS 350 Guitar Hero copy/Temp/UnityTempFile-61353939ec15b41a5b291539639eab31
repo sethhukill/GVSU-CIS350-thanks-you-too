@@ -33,6 +33,7 @@
 /reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2020.1.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
