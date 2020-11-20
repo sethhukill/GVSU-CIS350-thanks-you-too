@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,11 +13,11 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("Score", 0);
         PlayerPrefs.SetInt("RockMeter", 25);
-    }
-
-    void Update()
-    {
-        
+        PlayerPrefs.SetInt("Streak", 0);
+        PlayerPrefs.SetInt("HighStreak", 0);
+        PlayerPrefs.SetInt("Mult", 1);
+        PlayerPrefs.SetInt("NotesHit", 0);
+        PlayerPrefs.SetInt("Start", 1);
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -37,6 +38,12 @@ public class GameManager : MonoBehaviour
             multiplier = 2;
         else
             multiplier = 1;
+
+        if (streak > PlayerPrefs.GetInt("HighStreak"))
+            PlayerPrefs.SetInt("HighStreak", streak);
+
+        PlayerPrefs.SetInt("NotesHit", PlayerPrefs.GetInt("NotesHit") + 1);
+
         UpdateGUI();
     }
 
@@ -54,12 +61,16 @@ public class GameManager : MonoBehaviour
 
     public void Lose()
     {
-        print("You Lose!");
+        PlayerPrefs.SetInt("Start", 0);
+        SceneManager.LoadScene("LoseScreen");
     }
 
     public void Win()
     {
-        print("Your Win!");
+        PlayerPrefs.SetInt("Start", 0);
+        if (PlayerPrefs.GetInt("HighScore")< PlayerPrefs.GetInt("Score")) 
+            PlayerPrefs.SetInt("HighScore", PlayerPrefs.GetInt("Score"));
+        SceneManager.LoadScene("WinScreen");
     }
 
     void UpdateGUI()
