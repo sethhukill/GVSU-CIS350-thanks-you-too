@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SongSelect.unity
     guid: dc2db299f39794a58ab88498219b5e06
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/MainMenuOLD.unity
     guid: e1c6973843846483a92ba4132108031c
   - enabled: 1
     path: Assets/Scenes/PauseMenu.unity
     guid: 1cc394e9cc7bf489ea51f27d65d7d462
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 68734fcce0b8a4d80bec655349010313
   m_configObjects: {}

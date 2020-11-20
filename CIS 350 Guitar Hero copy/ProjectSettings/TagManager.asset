@@ -43,12 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Activator
-    uniqueID: 168235333
+  - name: Background
+    uniqueID: 4198603
     locked: 0
-  - name: Note
-    uniqueID: 1917813141
-    locked: 0
-  - name: RockMeter
-    uniqueID: 3046447333
+  - name: Foreground
+    uniqueID: 3248996439
     locked: 0
