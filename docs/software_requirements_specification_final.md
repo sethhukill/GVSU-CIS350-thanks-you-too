@@ -27,9 +27,71 @@ your SRS>
 | FR6 | <Requirement 3> | TC1,TC2 |
 | … | … | … |
 
+### <Name of Feature 3> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| FR1 | <Requirement 1> | TC1 |
+| FR2 | <Requirement 2> | TC2 |
+| FR3 | <Requirement 3> | TC1,TC2 |
+| … | … | … |
+
+### <Name of Feature 4> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| FR1 | <Requirement 1> | TC1 |
+| FR2 | <Requirement 2> | TC2 |
+| FR3 | <Requirement 3> | TC1,TC2 |
+| … | … | … |
+
+### <Name of Feature 5> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| FR1 | <Requirement 1> | TC1 |
+| FR2 | <Requirement 2> | TC2 |
+| FR3 | <Requirement 3> | TC1,TC2 |
+| … | … | … |
+
 ## Non-Functional Requirements
 
 ### <Name of Feature 1> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| NFR1 | <Non-Functional Requirement 1> | TC4 |
+| NFR2 | < Non-Functional Requirement 2> | TBD |
+| NFR3 | < Non-Functional Requirement 3> | TC6 |
+| … | … | … |
+### <Name of Feature 2> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| NFR1 | <Non-Functional Requirement 1> | TC4 |
+| NFR2 | < Non-Functional Requirement 2> | TBD |
+| NFR3 | < Non-Functional Requirement 3> | TC6 |
+| … | … | … |
+
+### <Name of Feature 3> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| NFR1 | <Non-Functional Requirement 1> | TC4 |
+| NFR2 | < Non-Functional Requirement 2> | TBD |
+| NFR3 | < Non-Functional Requirement 3> | TC6 |
+| … | … | … |
+
+### <Name of Feature 4> 
+
+| ID  | Requirement     | Test Cases |
+| :-------------: | :----------: | :----------: |
+| NFR1 | <Non-Functional Requirement 1> | TC4 |
+| NFR2 | < Non-Functional Requirement 2> | TBD |
+| NFR3 | < Non-Functional Requirement 3> | TC6 |
+| … | … | … |
+
+### <Name of Feature 5> 
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
