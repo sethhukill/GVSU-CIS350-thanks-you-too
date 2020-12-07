@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoseScreen.unity
     guid: 04ce6681b16fd934c84d0c02adc20dd5
+  - enabled: 1
+    path: Assets/Scenes/WiiTheme.unity
+    guid: 5f7be574d2c6ced479f48bd018c2aa9b
+  - enabled: 1
+    path: Assets/Scenes/Stickerbrush.unity
+    guid: 1d02b9ece622acb41be9cab27f8c76b4
   m_configObjects: {}

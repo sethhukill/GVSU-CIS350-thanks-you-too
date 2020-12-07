@@ -250,6 +250,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Smash
       objectReference: {fileID: 0}
+    - target: {fileID: 7096007907519518854, guid: ea847f6649e8dfd46b8b345f9ab92319,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toStickerbrushScene
+      objectReference: {fileID: 0}
     - target: {fileID: 7096007907519518857, guid: ea847f6649e8dfd46b8b345f9ab92319,
         type: 3}
       propertyPath: m_Sprite
@@ -463,6 +468,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wii
       objectReference: {fileID: 0}
+    - target: {fileID: 7096007907519518854, guid: ea847f6649e8dfd46b8b345f9ab92319,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1546088821}
+    - target: {fileID: 7096007907519518854, guid: ea847f6649e8dfd46b8b345f9ab92319,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toWiiScene
+      objectReference: {fileID: 0}
     - target: {fileID: 7096007907519518857, guid: ea847f6649e8dfd46b8b345f9ab92319,
         type: 3}
       propertyPath: m_Sprite
@@ -565,6 +580,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1546088821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7096007907519518855, guid: ea847f6649e8dfd46b8b345f9ab92319,
+    type: 3}
+  m_PrefabInstance: {fileID: 688519368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eab3ebad417394ca45d6d082c6f6b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1858723223
 GameObject:
   m_ObjectHideFlags: 0
