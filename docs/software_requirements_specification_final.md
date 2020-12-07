@@ -37,11 +37,11 @@ The purpose of this document is to provide a detailed and ordered list of all th
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR15 | The app shall first prompt the user to choose a mode, single player or 2-player | TC1 |
-| FR16 | The app shall exit a song if the exit button is clicked | TC2 |
-| FR17 | The app shall go to a pause menu when the pause button is clicked | TC1,TC2 |
-| FR18 | The app shall resume when the resume button is clicked | TC1,TC2 |
-| FR19 | The app shall go to the desired song when seleced in the song select scene | TC1,TC2 |
+| FR15 | The app shall first prompt the user to choose a mode, single player or 2-player |  |
+| FR16 | The app shall exit a song if the exit button is clicked |  |
+| FR17 | The app shall go to a pause menu when the pause button is clicked |  |
+| FR18 | The app shall resume when the resume button is clicked |  |
+| FR19 | The app shall go to the desired song when seleced in the song select scene |  |
 
 
 ## Non-Functional Requirements
@@ -50,49 +50,36 @@ The purpose of this document is to provide a detailed and ordered list of all th
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> | TC4 |
-| NFR2 | < Non-Functional Requirement 2> | TBD |
-| NFR3 | < Non-Functional Requirement 3> | TC6 |
-| … | … | … |
+| NFR1 | There shall be a background song when the user is in the menus screen | TC4 |
+| NFR2 | Button UI on main menu shall allow for only single press where the user cannot tap multiple menu buttons at once | TBD |
+| NFR3 | The app shall hold a visual list of songs to choose from | TC6 |
+| NFR4 | Songs shall have a different background to represent the lyrics or messages from the song| |
+| NFR5 | Pause overlay shall darken game screen | |
 ### Buttons 
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR1 | The color of the button keys shall be red, blue, yellow, and green | TC4 |
-| NFR2 | < Non-Functional Requirement 2> | TBD |
-| NFR3 | < Non-Functional Requirement 3> | TC6 |
-| … | … | … |
+| NFR6 | The color of one button key shall be green |  |
+| NFR7 | The color of one button key shall be red |  |
+| NFR8 | The color of one button key shall be blue |  |
+| NFR9 | The color of one button key shall be yellow |  |
+| NFR10 | UI shall be active and responsive to user's inputs |  |
+| NFR11 | The user shall not be able to hold down all the buttons and continue to win the game |  |
+
 
 ### Music
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> | TC4 |
-| NFR2 | < Non-Functional Requirement 2> | TBD |
-| NFR3 | < Non-Functional Requirement 3> | TC6 |
-| … | … | … |
-
-### <Name of Feature 4> 
-
-| ID  | Requirement     | Test Cases |
-| :-------------: | :----------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> | TC4 |
-| NFR2 | < Non-Functional Requirement 2> | TBD |
-| NFR3 | < Non-Functional Requirement 3> | TC6 |
-| … | … | … |
-
-### <Name of Feature 5> 
-
-| ID  | Requirement     | Test Cases |
-| :-------------: | :----------: | :----------: |
-| NFR1 | <Non-Functional Requirement 1> | TC4 |
-| NFR2 | < Non-Functional Requirement 2> | TBD |
-| NFR3 | < Non-Functional Requirement 3> | TC6 |
-| … | … | … |
+| NFR12 | The songs shall be a variety of difficulties |  |
+| NFR13 | Songs shall have a different notes to represent the beat from the song |  |
+| NFR14 | There shall be 3 songs to choose from |  |
+| NFR15 | Song titles shall be present on song selection screen|  |
+| NFR16 | Song image cover shall be present on song selection screen|  |
 
 # Test Specification
 
-<Description of what this section is>
+Different tests applied to our project to ensure 100% success
 
 ## Unit tests
 
@@ -158,7 +145,6 @@ The purpose of this document is to provide a detailed and ordered list of all th
 | TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
   
   
-(copy/paste the above table a minimum of 5 times)
 
 ## System tests
 | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
@@ -181,7 +167,7 @@ The purpose of this document is to provide a detailed and ordered list of all th
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 | TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
   
-(copy/paste the above table a minimum of 5 times)
+
 
 # Software Artifacts
 
