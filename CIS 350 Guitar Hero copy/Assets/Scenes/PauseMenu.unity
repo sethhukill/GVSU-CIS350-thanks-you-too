@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPaused: 0
+  SoundOffButton: {fileID: 0}
 --- !u!1 &665265757
 GameObject:
   m_ObjectHideFlags: 0

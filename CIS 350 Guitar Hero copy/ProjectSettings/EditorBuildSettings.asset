@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/WiiTheme.unity
     guid: 5f7be574d2c6ced479f48bd018c2aa9b
   - enabled: 1
-    path: Assets/Scenes/Stickerbrush.unity
+    path: Assets/Scenes/Stickerbush.unity
     guid: 1d02b9ece622acb41be9cab27f8c76b4
   m_configObjects: {}

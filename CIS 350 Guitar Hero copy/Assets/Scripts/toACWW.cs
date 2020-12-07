@@ -7,18 +7,18 @@ public class toACWW : MonoBehaviour
     public void toACWWScene()
     {
         SceneManager.LoadScene("AnimalCrossing");
-        Time.timeScale = 1;
+        
     }
 
     public void toWiiScene()
     {
         SceneManager.LoadScene("WiiTheme");
-        Time.timeScale = 1;
+        
     }
 
-    public void toStickerbrushScene()
+    public void toStickerbushScene()
     {
-        SceneManager.LoadScene("Stickerbrush");
-        Time.timeScale = 1;
+        SceneManager.LoadScene("Stickerbush");
+        
     }
 }

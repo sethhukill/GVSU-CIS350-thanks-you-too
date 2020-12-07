@@ -253,7 +253,7 @@ PrefabInstance:
     - target: {fileID: 7096007907519518854, guid: ea847f6649e8dfd46b8b345f9ab92319,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: toStickerbrushScene
+      value: toStickerbushScene
       objectReference: {fileID: 0}
     - target: {fileID: 7096007907519518857, guid: ea847f6649e8dfd46b8b345f9ab92319,
         type: 3}
