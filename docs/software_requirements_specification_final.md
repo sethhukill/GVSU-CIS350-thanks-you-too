@@ -4,7 +4,7 @@ The purpose of this document is to provide a detailed and ordered list of all th
 
 # Software Requirements
 
-<Describe the structure of this section>
+A list of all our features with their desired requirements starting with function then transitioning to non-functional
 
 ## Functional Requirements
 
