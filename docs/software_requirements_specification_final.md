@@ -12,23 +12,23 @@ A list of all our features with their desired requirements starting with functio
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR1 | Buttons shall be pressable at all times ||
-| FR2 | Red button shall destroy red note when pressed while overlapped| |
-| FR3 | Green button shall destroy green note when pressed while overlapped| |
-| FR4 | Yellow button shall destroy yellow note when pressed while overlapped| |
-| FR5 | Blue button shall destroy blue note when pressed while overlapped| |
+| FR1 | Buttons shall be pressable at all times | TC5 |
+| FR2 | Red button shall destroy red note when pressed while overlapped| TC1 |
+| FR3 | Green button shall destroy green note when pressed while overlapped| TC3 |
+| FR4 | Yellow button shall destroy yellow note when pressed while overlapped| TC4 |
+| FR5 | Blue button shall destroy blue note when pressed while overlapped|TC2 |
 
 ### Scoring
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
 | FR6 | The scoring system will reward the user a base amount of 100 points if they correctly time the button presses with the notes |  |
-| FR7 | When the song has been beaten there shall be a victory message/screen that pops up to congratulate the user | |
+| FR7 | When the song has been beaten there shall be a victory message/screen that pops up to congratulate the user | TC8 |
 | FR8 | The base score per note shall be 100 and increased by the multiplier| |
 | FR9 | The multiplier shall be 2X after 8 consecutive notes are hit|  |
 | FR10 | The multiplier shall be 3X after 16 consecutive notes are hit|  |
 | FR11 | The multiplier shall be 4X after 24 consecutive notes are hit|  |
-| FR12 | When the rock bar hits 0 there shall be a failed message/screen |  |
+| FR12 | When the rock bar hits 0 there shall be a failed message/screen | TC6 |
 | FR13 | When you miss a note the rock bar shall go down by 2|  |
 | FR14 | When you hit a note the rock bar shall go up by 1|  |
 
@@ -39,7 +39,7 @@ A list of all our features with their desired requirements starting with functio
 | :-------------: | :----------: | :----------: |
 | FR15 | The app shall first prompt the user to choose a mode, single player or 2-player |  |
 | FR16 | The app shall exit a song if the exit button is clicked |  |
-| FR17 | The app shall go to a pause menu when the pause button is clicked |  |
+| FR17 | The app shall go to a pause menu when the pause button is clicked | TC8 |
 | FR18 | The app shall resume when the resume button is clicked |  |
 | FR19 | The app shall go to the desired song when seleced in the song select scene |  |
 
@@ -50,9 +50,9 @@ A list of all our features with their desired requirements starting with functio
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR1 | There shall be a background song when the user is in the menus screen | TC4 |
-| NFR2 | Button UI on main menu shall allow for only single press where the user cannot tap multiple menu buttons at once | TBD |
-| NFR3 | The app shall hold a visual list of songs to choose from | TC6 |
+| NFR1 | There shall be a background song when the user is in the menus screen |  |
+| NFR2 | Button UI on main menu shall allow for only single press where the user cannot tap multiple menu buttons at once |  |
+| NFR3 | The app shall hold a visual list of songs to choose from |  |
 | NFR4 | Songs shall have a different background to represent the lyrics or messages from the song| |
 | NFR5 | Pause overlay shall darken game screen | |
 ### Buttons 
@@ -84,44 +84,44 @@ Different tests applied to our project to ensure 100% success
 ## Unit tests
 
 | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
-| :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| :-------------: | :-----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| TC1 | Red note is destroyed when overlapped and pressed with red activator | Start song, click red note activator while overlapped with red note | Touch | Red note is destroyed | Red note was destroyed | Pass | FR2 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC2 | Blue note is destroyed when overlapped and pressed with blue activator | Start song, click blue note activator while overlapped with blue note | Touch | Blue note is destroyed | Blue note was destroyed | Pass | FR5 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC3 | Green note is destroyed when overlapped and pressed with green activator | Start song, click green note activator while overlapped with green note | Touch | Green note is destroyed | Green note was destroyed | Pass | FR3 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC4 | Yellow note is destroyed when overlapped and pressed with yellow activator | Start song, click yellow note activator while overlapped with yellow note | Touch | yellow note is destroyed | yellow note was destroyed | Pass | FR4 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC5 | Buttons can be pressed at any time | Open any song, press touch buttons | Touch | Buttons can be pressed | All buttons can be pressed | Pass | FR1 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC6 | Rock metter goes below 0 | Start game, let notes pass the activators | Touch | Game will end | Game ended | Pass | FR12 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC7 | Touching the pause button | Start game, touch pause | Touch | Game will ender the pause menu | Game entered pause menu | Pass | FR17 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC8 | Winning the game | Start game, win game by finishing song | Touch | Win the game and a game win screen pops up | Won the game and game win screen pops up | Pass | FR7 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC9 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC10 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
   
 ## Integration tests
 | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
