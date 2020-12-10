@@ -24,10 +24,7 @@ public class Activator : MonoBehaviour
     }
 
 
-    private void Update()
-    {
-        
-    }
+
 
     private void OnMouseDown()
     {
@@ -50,7 +47,7 @@ public class Activator : MonoBehaviour
                 gm.GetComponent<GameManager>().ResetStreak();
         }
     }
-        
+
 
 
     void OnTriggerEnter2D(Collider2D col)
