@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("RockMeter", PlayerPrefs.GetInt("RockMeter") - 2);
         if (PlayerPrefs.GetInt("RockMeter") < 0)
         {
-            Lose();
+           Lose();
         }
         streak = 0;
         multiplier = 1;
