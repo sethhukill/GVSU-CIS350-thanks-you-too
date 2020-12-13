@@ -35448,6 +35448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5093498589875919550, guid: f50c5b47e4f4e7d4b99c5477bb2aa5cd,
+        type: 3}
+      propertyPath: scene
+      value: Stickerbush
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f50c5b47e4f4e7d4b99c5477bb2aa5cd, type: 3}
 --- !u!1001 &6768643969761846406

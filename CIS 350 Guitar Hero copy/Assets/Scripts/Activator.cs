@@ -67,7 +67,7 @@ public class Activator : MonoBehaviour
     void OnTriggerExit2D(Collider2D col)
     {
         active = false;
-        /*gm.GetComponent<GameManager>().ResetStreak();*/
+        
     }
 
     void AddScore()

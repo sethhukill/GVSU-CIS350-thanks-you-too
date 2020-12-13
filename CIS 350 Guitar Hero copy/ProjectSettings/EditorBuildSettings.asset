@@ -6,24 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/ACWW_LoseScreen.unity
+    guid: 04ce6681b16fd934c84d0c02adc20dd5
+  - enabled: 1
+    path: Assets/Scenes/ACWW_WinScreen.unity
+    guid: b30855358ed48c047ba1433506541a7c
+  - enabled: 1
+    path: Assets/Scenes/AnimalCrossing.unity
+    guid: 196d17a1b00557047bc2c0b103dd750e
+  - enabled: 1
+    path: Assets/Scenes/LayerCake.unity
+    guid: d35052c41142248909a15ba9078e9e83
+  - enabled: 1
+    path: Assets/Scenes/LayerCake_LoseScreen.unity
+    guid: 7aff7e2fff1699e4b8e475eebdf2236f
+  - enabled: 1
+    path: Assets/Scenes/LayerCake_WinScreen.unity
+    guid: 11cec0b75161add4d934cc336666fd9f
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 68734fcce0b8a4d80bec655349010313
   - enabled: 1
     path: Assets/Scenes/SongSelect.unity
     guid: dc2db299f39794a58ab88498219b5e06
   - enabled: 1
-    path: Assets/Scenes/AnimalCrossing.unity
-    guid: 196d17a1b00557047bc2c0b103dd750e
+    path: Assets/Scenes/Stickerbush.unity
+    guid: 1d02b9ece622acb41be9cab27f8c76b4
   - enabled: 1
-    path: Assets/Scenes/WinScreen.unity
-    guid: 11cec0b75161add4d934cc336666fd9f
+    path: Assets/Scenes/Stickerbush_LoseScreen.unity
+    guid: 1a5cdaf6afbac284889959c32c32b340
   - enabled: 1
-    path: Assets/Scenes/LoseScreen.unity
-    guid: 04ce6681b16fd934c84d0c02adc20dd5
+    path: Assets/Scenes/Stickerbush_WinScreen.unity
+    guid: 4b1628830497cb94abe63b166df0d484
   - enabled: 1
     path: Assets/Scenes/WiiTheme.unity
     guid: 5f7be574d2c6ced479f48bd018c2aa9b
   - enabled: 1
-    path: Assets/Scenes/Stickerbush.unity
-    guid: 1d02b9ece622acb41be9cab27f8c76b4
+    path: Assets/Scenes/WiiTheme_LoseScreen.unity
+    guid: ed08c69001aefca4081e96169ba9ef31
+  - enabled: 1
+    path: Assets/Scenes/WIiTheme_WinScreen.unity
+    guid: 71f94f42efdafec49b7c29d6a13b1040
   m_configObjects: {}

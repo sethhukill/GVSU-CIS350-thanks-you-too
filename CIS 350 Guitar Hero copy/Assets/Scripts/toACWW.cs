@@ -21,4 +21,9 @@ public class toACWW : MonoBehaviour
         SceneManager.LoadScene("Stickerbush");
         
     }
+    public void toLayerCake()
+    {
+        SceneManager.LoadScene("LayerCake");
+
+    }
 }

@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     int multiplier;
     int streak;
+    public string scene;
     
     void Start()
     {
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
         {
            Lose();
         }
+        PlayerPrefs.SetInt("NotesHit", PlayerPrefs.GetInt("NotesHit") + 1);
         streak = 0;
         multiplier = 1;
         UpdateGUI();
@@ -62,7 +64,14 @@ public class GameManager : MonoBehaviour
     public void Lose()
     {
         PlayerPrefs.SetInt("Start", 0);
-        SceneManager.LoadScene("LoseScreen");
+        if (scene == "ACWW")
+            SceneManager.LoadScene("ACWW_LoseScreen");
+        else if (scene == "WiiTheme")
+            SceneManager.LoadScene("WiiTheme_LoseScreen");
+        else if (scene == "Stickerbush")
+            SceneManager.LoadScene("Stickerbush_LoseScreen");
+        else
+            SceneManager.LoadScene("LayerCake_LoseScreen");
     }
 
     public void Win()
@@ -70,7 +79,14 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("Start", 0);
         if (PlayerPrefs.GetInt("HighScore")< PlayerPrefs.GetInt("Score")) 
             PlayerPrefs.SetInt("HighScore", PlayerPrefs.GetInt("Score"));
-        SceneManager.LoadScene("WinScreen");
+        if (scene == "ACWW")
+            SceneManager.LoadScene("ACWW_WinScreen");
+        else if (scene == "WiiTheme")
+            SceneManager.LoadScene("WiiTheme_WinScreen");
+        else if (scene == "Stickerbush")
+            SceneManager.LoadScene("Stickerbush_WinScreen");
+        else
+            SceneManager.LoadScene("LayerCake_WinScreen");
     }
 
     void UpdateGUI()
