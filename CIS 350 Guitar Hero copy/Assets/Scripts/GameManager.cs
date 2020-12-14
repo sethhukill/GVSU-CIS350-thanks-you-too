@@ -55,7 +55,6 @@ public class GameManager : MonoBehaviour
         {
            Lose();
         }
-        PlayerPrefs.SetInt("NotesHit", PlayerPrefs.GetInt("NotesHit") + 1);
         streak = 0;
         multiplier = 1;
         UpdateGUI();
