@@ -12,7 +12,7 @@ A list of all our features with their desired requirements starting with functio
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR1 | Buttons shall be pressable at all times | TC5 |
+| FR1 | Buttons shall be pressable at all times | TC5, TC9 |
 | FR2 | Red button shall destroy red note when pressed while overlapped| TC1 |
 | FR3 | Green button shall destroy green note when pressed while overlapped| TC3 |
 | FR4 | Yellow button shall destroy yellow note when pressed while overlapped| TC4 |
@@ -23,13 +23,13 @@ A list of all our features with their desired requirements starting with functio
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
 | FR6 | The scoring system will reward the user a base amount of 100 points if they correctly time the button presses with the notes |  |
-| FR7 | When the song has been beaten there shall be a victory message/screen that pops up to congratulate the user | TC8 |
+| FR7 | When the song has been beaten there shall be a victory message/screen that pops up to congratulate the user | TC8, TC19 |
 | FR8 | The base score per note shall be 100 and increased by the multiplier| |
-| FR9 | The multiplier shall be 2X after 8 consecutive notes are hit|  |
-| FR10 | The multiplier shall be 3X after 16 consecutive notes are hit|  |
-| FR11 | The multiplier shall be 4X after 24 consecutive notes are hit|  |
+| FR9 | The multiplier shall be 2X after 8 consecutive notes are hit| TC16 |
+| FR10 | The multiplier shall be 3X after 16 consecutive notes are hit| TC17 |
+| FR11 | The multiplier shall be 4X after 24 consecutive notes are hit| TC18 |
 | FR12 | When the rock bar hits 0 there shall be a failed message/screen | TC6 |
-| FR13 | When you miss a note the rock bar shall go down by 2|  |
+| FR13 | When you miss a note the rock bar shall go down by 2| TC10 |
 | FR14 | When you hit a note the rock bar shall go up by 1|  |
 
 
@@ -41,8 +41,8 @@ A list of all our features with their desired requirements starting with functio
 | FR16 | The app shall exit a song if the exit button is clicked |  |
 | FR17 | The app shall go to a pause menu when the pause button is clicked | TC8 |
 | FR18 | The app shall resume when the resume button is clicked |  |
-| FR19 | The app shall go to the desired song when seleced in the song select scene | TC17,TC18,TC19,TC20 |
-| FR20 | The app shall go to the song select when you select single player | TC16 |
+| FR19 | The app shall go to the desired song when seleced in the song select scene | TC12, TC13, TC14, TC15 |
+| FR20 | The app shall go to the song select when you select single player | TC11 |
 
 
 ## Non-Functional Requirements
@@ -78,6 +78,8 @@ A list of all our features with their desired requirements starting with functio
 | NFR14 | There shall be 3 songs to choose from |  |
 | NFR15 | Song titles shall be present on song selection screen|  |
 | NFR16 | Song image cover shall be present on song selection screen|  |
+| NFR17 | Song and notes shall be synced | TC20 |
+
 
 # Test Specification
 
@@ -119,55 +121,55 @@ Different tests applied to our project to ensure 100% success
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC9 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC9 | Touching outside the activator | Start song, touch anywhere other than the activator | Touch | Notes should not be destroyed | Being able to touch outside activatores does nothing to the notes | Pass | FR5 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC10 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC10 | Missing notes and miss clicking notes | Start game | Touch | Rock meter should go down | Rock meter goes down | Pass | FR13 |
   
 ## Integration tests
 | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC11 | Go into song select if you click single player in main menu | Click single player | Touch | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC11 |Go into song select if you click single player in main menu | Touch single player | Touch | User should be put into song select screen | User goes into song select | Pass | FR20 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC12 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC12 | Go into Sticker brush when Sticker brush song is selected | Touch single player, Touch Sticker brush song| Touch | User should be put into sticker brush song | User goes into stickerbrush song | Pass | FR19 |
   
-  | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC13 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
-  
-  | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| TC13 | Go into Wii song when Wii song is selected | Touch single player, Touch Wii song| Touch | User should be put into wii song | User goes into wii | Pass | FR19 |
+
+| ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC14 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
-  
-  | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| TC14 | Go into Animal crossing when animal crossing song is selected | Touch single player, Touch Animal crossing song| Touch | User should be put into animal crossing song | User goes into Animal crossing song | Pass | FR19 |
+
+| ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC15 | <TC1 description> | <steps to execute TC1> | <input values to this test case> | <expected output as a result of test case> | <actual output of test case> | <did it pass or fail?> | <requirement IDs this test case is linked to> |
+| TC15 | Go into Layer cake when Layer cake song is selected | Touch single player, Touch Sticker brush song| Touch | User should be put into Layer cake song | User goes into Layer cake song | Pass | FR19 |
   
   
 
 ## System tests
 | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC16 |Go into song select if you click single player in main menu | Touch single player | Touch | User should be put into song select screen | User goes into song select | Pass | FR20 |
+| TC16 | Testing first level multiplier | Start song, hit 8 consequtive notes | Touch | Multiplier should go to 2X | Multiplier goes to 2X | Pass | FR9 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC17 | Go into Sticker brush when Sticker brush song is selected | Touch single player, Touch Sticker brush song| Touch | User should be put into sticker brush song | User goes into stickerbrush song | Pass | FR19 |
+| TC17 | Testing second level multiplier | Start song, hit 16 consequtive notes | Touch | Multiplier should go to 3X | Multiplier goes to 3X | Pass | FR9 |
   
-| ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+  | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC18 | Go into Wii song when Wii song is selected | Touch single player, Touch Wii song| Touch | User should be put into wii song | User goes into wii | Pass | FR19 |
-
-| ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| TC18 | Testing third level multiplier | Start song, hit 24 consequtive notes | Touch | Multiplier should go to 4X | Multiplier goes to 4X | Pass | FR9 |
+  
+  | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC19 | Go into Animal crossing when animal crossing song is selected | Touch single player, Touch Animal crossing song| Touch | User should be put into animal crossing song | User goes into Animal crossing song | Pass | FR19 |
-
-| ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| TC19 | Keeping track of notes hit correctly | Play song, win song | Touch | Win screen should show amount of notes hit | Win screen shows amount of notes hit | Pass | FR7 |
+ 
+  | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC20 | Go into Layer cake when Layer cake song is selected | Touch single player, Touch Sticker brush song| Touch | User should be put into Layer cake song | User goes into Layer cake song | Pass | FR19 |
+| TC20 | Notes and music start at the same time | Start song | Touch | Notes and music should start at same time | Notes and music started at the same time | Pass | NFR17 |
   
 
 
