@@ -22,7 +22,7 @@ A list of all our features with their desired requirements starting with functio
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR6 | The scoring system will reward the user a base amount of 100 points if they correctly time the button presses with the notes |  |
+| FR6 | The scoring system will reward the user a base amount of 100 points if they correctly time the button presses with the notes | TBD |
 | FR7 | When the song has been beaten there shall be a victory message/screen that pops up to congratulate the user | TC8, TC19 |
 | FR8 | The base score per note shall be 100 and increased by the multiplier| |
 | FR9 | The multiplier shall be 2X after 8 consecutive notes are hit| TC16 |
@@ -30,17 +30,17 @@ A list of all our features with their desired requirements starting with functio
 | FR11 | The multiplier shall be 4X after 24 consecutive notes are hit| TC18 |
 | FR12 | When the rock bar hits 0 there shall be a failed message/screen | TC6 |
 | FR13 | When you miss a note the rock bar shall go down by 2| TC10 |
-| FR14 | When you hit a note the rock bar shall go up by 1|  |
+| FR14 | When you hit a note the rock bar shall go up by 1| TBD |
 
 
 ### Scenes
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR15 | The app shall first prompt the user to choose a mode, single player or 2-player |  |
-| FR16 | The app shall exit a song if the exit button is clicked |  |
+| FR15 | The app shall first prompt the user to choose a mode, single player or 2-player | TBD |
+| FR16 | The app shall exit a song if the exit button is clicked | TBD |
 | FR17 | The app shall go to a pause menu when the pause button is clicked | TC8 |
-| FR18 | The app shall resume when the resume button is clicked |  |
+| FR18 | The app shall resume when the resume button is clicked | TBD |
 | FR19 | The app shall go to the desired song when seleced in the song select scene | TC12, TC13, TC14, TC15 |
 | FR20 | The app shall go to the song select when you select single player | TC11 |
 
@@ -51,33 +51,33 @@ A list of all our features with their desired requirements starting with functio
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR1 | There shall be a background song when the user is in the menus screen |  |
-| NFR2 | Button UI on main menu shall allow for only single press where the user cannot tap multiple menu buttons at once |  |
-| NFR3 | The app shall hold a visual list of songs to choose from |  |
-| NFR4 | Songs shall have a different background to represent the lyrics or messages from the song| |
-| NFR5 | Pause overlay shall darken game screen | |
+| NFR1 | There shall be a background song when the user is in the menus screen | TBD |
+| NFR2 | Button UI on main menu shall allow for only single press where the user cannot tap multiple menu buttons at once | TBD |
+| NFR3 | The app shall hold a visual list of songs to choose from | TBD |
+| NFR4 | Songs shall have a different background to represent the lyrics or messages from the song| TBD |
+| NFR5 | Pause overlay shall darken game screen | TBD |
 
 ### Buttons 
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR6 | The color of one button key shall be green |  |
-| NFR7 | The color of one button key shall be red |  |
-| NFR8 | The color of one button key shall be blue |  |
-| NFR9 | The color of one button key shall be yellow |  |
-| NFR10 | UI shall be active and responsive to user's inputs |  |
-| NFR11 | The user shall not be able to hold down all the buttons and continue to win the game |  |
+| NFR6 | The color of one button key shall be green | TBD |
+| NFR7 | The color of one button key shall be red | TBD |
+| NFR8 | The color of one button key shall be blue | TBD |
+| NFR9 | The color of one button key shall be yellow | TBD |
+| NFR10 | UI shall be active and responsive to user's inputs | TBD |
+| NFR11 | The user shall not be able to hold down all the buttons and continue to win the game | TBD |
 
 
 ### Music
 
 | ID  | Requirement     | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR12 | The songs shall be a variety of difficulties |  |
-| NFR13 | Songs shall have a different notes to represent the beat from the song |  |
-| NFR14 | There shall be 3 songs to choose from |  |
-| NFR15 | Song titles shall be present on song selection screen|  |
-| NFR16 | Song image cover shall be present on song selection screen|  |
+| NFR12 | The songs shall be a variety of difficulties | TBD |
+| NFR13 | Songs shall have a different notes to represent the beat from the song | TBD |
+| NFR14 | There shall be 3 songs to choose from | TBD |
+| NFR15 | Song titles shall be present on song selection screen| TBD |
+| NFR16 | Song image cover shall be present on song selection screen| TBD |
 | NFR17 | Song and notes shall be synced | TC20 |
 
 
@@ -175,7 +175,7 @@ Different tests applied to our project to ensure 100% success
 
 # Software Artifacts
 
-<Describe the purpose of this section>
+These are the links to our artifacts
 
 * [I am a link](to_some_file.pdf)
 
