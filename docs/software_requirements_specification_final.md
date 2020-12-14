@@ -109,7 +109,7 @@ Different tests applied to our project to ensure 100% success
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| TC6 | Rock metter goes below 0 | Start game, let notes pass the activators | Touch | Game will end | Game ended | Pass | FR12 |
+| TC6 | Rock meter goes below 0 | Start game, let notes pass the activators | Touch | Game will end | Game ended | Pass | FR12 |
   
   | ID  | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
