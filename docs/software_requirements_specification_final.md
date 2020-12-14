@@ -177,5 +177,11 @@ Different tests applied to our project to ensure 100% success
 
 These are the links to our artifacts
 
-* [I am a link](to_some_file.pdf)
+* [Use Case Diagram](https://github.com/sethhukill/GVSU-CIS350-thanks-you-too/blob/master/artifacts/use_case_diagrams/350%20Use-Case-Diagrams.png)
+* [Gantt Chart](https://github.com/sethhukill/GVSU-CIS350-thanks-you-too/blob/master/docs/350gantt.pdf)
+* [Midterm Presentation](https://github.com/sethhukill/GVSU-CIS350-thanks-you-too/blob/master/docs/Midterm%20presentation.pdf)
+* [High Level Tasks](https://github.com/sethhukill/GVSU-CIS350-thanks-you-too/blob/master/docs/high-level-tasks.md)
+* [Proposal Document](https://github.com/sethhukill/GVSU-CIS350-thanks-you-too/blob/master/docs/proposal-template.md)
+* [SRS](https://github.com/sethhukill/GVSU-CIS350-thanks-you-too/blob/master/docs/software_requirements_specification.md)
+
 
