@@ -17,7 +17,7 @@ We plan on taking the satisfying gameplay loop of rhythmically pressing buttons 
 * [Grant King](https://github.com/GKing97/CIS350-HW2-King) 
 * [Kevin Rufino](https://github.com/kevinrufino/CIS350-HW2-Rufino) 
 
-## Prerequisites
-
 ## Run Instructions
-Clone this repository on to your computer, and download Unity 2020.1.14 onto your computer. Then open the CIS-350-Guitar-Hero-Copy in Unity. To play the game, go to scenes folder, double click on the Main Menu scene, and then click the play button at the top of Unity. From their, you can click single player, and then select want song you want to play!
+To run it using Unity on your computer, clone this repository on to your computer, and download Unity 2020.1.14 onto your computer. Then open the CIS-350-Guitar-Hero-Copy in Unity. To play the game, go to scenes folder, double click on the Main Menu scene, and then click the play button at the top of Unity. From their, you can click single player, and then select want song you want to play!
+
+To run it on an Android phone, download the zipped Guitar Hero file onto your phone, and then run the app!
